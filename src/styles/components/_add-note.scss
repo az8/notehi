@@ -1,0 +1,48 @@
+.add-note-error {
+    color: darken(#ffbcaf, 15%);
+    margin: $m-size 0 0 0;
+    padding: $xs-size $m-size;
+    font-weight: 300;
+  
+  }
+  
+  .add-note {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .3rem;
+    background: lighten(#a1cbee,16%);
+    justify-content: space-between;
+    margin:10px;
+    border:1px solid #dddfe2; 
+    border-top:1px solid darken(#e7ecf3, 30%);
+    justify-content: space-around;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.12);
+  }
+  
+  .add-note__input {
+    background: lighten(#a1cbee,18%);
+    border: none;
+    color: darken(#6f7779, 16%);
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+    padding: $s-size;
+    outline: none;
+    resize: none;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  .add-note__input::placeholder{
+    color: darken(#6f7779, 0%);
+    opacity: 0.9;
+  }
+  
+  @media (min-width: $desktop-breakpoint) {
+    .add-note {
+      flex-direction: column;
+    }
+    .add-note__input {
+      margin: 0 0 $s-size 0;
+    }
+  }
+  

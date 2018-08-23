@@ -1,0 +1,73 @@
+.button {
+    background: $blue;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+  }
+  
+  .button--link {
+    background: none;
+  }
+  
+  .button--secondary {
+    background: #888;
+  }
+  
+  .big-button2 {
+    background: $apricot;
+    border: none;
+    border-bottom: .6rem solid darken($apricot, 10%);
+    color: $grey;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+  }
+  
+  .big-button2:disabled {
+    opacity: .5;
+  }
+  
+  @media (min-width: $desktop-breakpoint) {
+    .big-button {
+      margin-bottom: $xl-size;
+    }
+  }
+  
+  .button2 {
+    background:rgba(227, 231, 231,0.01);
+    border: .0rem solid darken(#e7ecf3, 35%);
+    color: darken(#e7ecf3, 35%);
+    font-weight: 300;
+    width:24px;
+    align-self:center;
+    outline: none;
+    margin: 0 4px 0 4px;
+    padding: 3px;
+  
+  }
+  
+  .button2--link {
+    background: none;
+    border: .0rem solid darken(#e7ecf3, 35%);
+    color: darken(#e7ecf3, 35%);
+  }
+  
+  .button2--login {
+    width:146px;
+    padding: 0;
+    border:none;
+    align-self:right;
+    color:darken(#fefefe, 0%);
+    font-weight: 350;
+    font-size: 1.7rem;
+    margin: 0 $m-size 0 0;
+  
+  }
+  

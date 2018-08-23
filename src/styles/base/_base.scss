@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    cursor: default;
+  }
+  
+  .is-active {
+    font-weight: bold;
+  }
+  
+  
+  body {
+    background: #e8f3fd;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    line-height: 1.6;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    cursor: default;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Poppins:Extra-Light);
+  
+  .show-for-mobile {
+    @media (min-width: $desktop-breakpoint) {
+      display: none;
+    }
+  }
+  
+  .show-for-desktop {
+    @media (max-width: $desktop-breakpoint - .01rem) {
+      display: none;
+    }
+  }

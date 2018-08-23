@@ -1,0 +1,35 @@
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: .3rem;
+    margin:10px;
+    background: lighten(#a1cbee,18%);
+    border-top: 1px solid lighten(#21baa4,0%);
+    text-decoration: none;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.12);
+  }
+  
+  .note__text {
+    color: $grey;
+    font-weight: 300;
+    font-size: $m-size;
+    margin: 0;
+    word-break: break-all;
+    white-space: pre-line;
+    outline: none;
+  
+  }
+  
+  .note__text2 {
+    background: lighten(#f0f9fe,2%);
+    border: none;
+    color: darken(#6f7779, 10%);
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+    padding: $s-size;
+    outline: none;
+    resize: none;
+    font-weight: 300;
+    line-height: 1.5; 
+  }
